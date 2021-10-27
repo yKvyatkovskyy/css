@@ -1,0 +1,46 @@
+body {
+    width: 300px;
+    margin: auto;
+}
+
+h1, h2, p {
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    background-color: greenyellow;
+}
+
+#chosen {
+    text-decoration: underline;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.border {
+    border: 1px solid brown;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+div + p {
+    transform: rotate(180deg);
+}
+
+h1:hover,
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
